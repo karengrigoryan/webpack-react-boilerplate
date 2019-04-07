@@ -1,5 +1,9 @@
+// vendors
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+
+// common styles and main component
+import './index.scss';
+import App from './components/App/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
