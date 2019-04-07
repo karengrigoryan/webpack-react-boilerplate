@@ -1,0 +1,40 @@
+{
+  "name": "webpack-react-boilerplate",
+  "version": "0.0.1",
+  "description": "Webpack boilerplate for React apps",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karengrigoryan/webpack-react-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "boilerplate"
+  ],
+  "author": "Karen Grigoryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karengrigoryan/webpack-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/karengrigoryan/webpack-react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
