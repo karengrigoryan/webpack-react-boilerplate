@@ -40,7 +40,13 @@ module.exports = (env, argv) => {
                 ]
               }
             },
-            'sass-loader'
+            'sass-loader',
+            {
+              loader: 'sass-resources-loader',
+              options: {
+                resources: ['./src/scss/variables.scss', './src/scss/mixins.scss']
+              }
+            }
           ]
         }
       ]

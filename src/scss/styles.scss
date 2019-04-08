@@ -1,0 +1,9 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $body-bg;
+}
+
+.position-absolute-all {
+  @include position(absolute, 0, 0, 0, 0);
+}
