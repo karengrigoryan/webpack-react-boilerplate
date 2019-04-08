@@ -48,6 +48,28 @@ module.exports = (env, argv) => {
               }
             }
           ]
+        },
+        {
+          test: /\.(png|jpg|gif|svg)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                outputPath: 'assets/img'
+              }
+            }
+          ]
+        },
+        {
+          test: /\.(woff|woff2|ttf|eot)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                outputPath: 'assets/fonts'
+              }
+            }
+          ]
         }
       ]
     },
